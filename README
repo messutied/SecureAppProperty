@@ -1,0 +1,23 @@
+======
+Usage:
+======
+
+
+String dir = System.getProperty("user.home");
+String numberOfMonthsForTrial = 1;
+
+SecureAppProperty sapp = new SecureAppProperty(
+		"Encryption Key string", 
+		dir, 
+		"file_config.dat", 
+		numberOfMonthsForTrial );
+
+
+sapp.saveFile(); // Run this one time, like after installing your app
+
+
+// And check every time if the trial period hasnt pass or the computer hasnt change
+sapp.loadFile();
+if (sapp.check() != 1) {
+	getOut();
+}

@@ -8,7 +8,7 @@ package dateends;
  *
  * @author messuti.edd
  */
-public class DateEnds {
+public class Test {
 
 	/**
 	 * @param args the command line arguments

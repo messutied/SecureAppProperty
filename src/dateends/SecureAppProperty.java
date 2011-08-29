@@ -180,7 +180,7 @@ public class SecureAppProperty {
 			}
 			return macString;
 		} catch (Exception ex) {
-			Logger.getLogger(DateEnds.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
 			return "";
 		}
 	}
