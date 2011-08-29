@@ -17,7 +17,7 @@ public class DateEnds {
 
 		String curDir = System.getProperty("user.home");
 
-		SecureAppProperty sapp = new SecureAppProperty("Anferth TPV", curDir, "anferth_tpv_config.dat", 1);
+		SecureAppProperty sapp = new SecureAppProperty("Test key", curDir, "anferth_tpv_config.dat", 1);
 		
 //		sapp.saveFile();
 //		sapp.loadFile();
